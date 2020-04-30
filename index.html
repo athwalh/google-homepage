@@ -2,7 +2,42 @@
 <html lang ="en">
 
     <style>
-    
+        form{
+            text-align: center;
+        }
+    .center {
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+        width:20%;
+    }
+
+    .fieldframe {
+        border: 1px white;
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+        width:40%;
+    }
+
+    .button {
+        border:2px;
+        border-color: white;
+        width:200px;
+        height:50px;
+        color: grey;
+        background-color: lightcyan;
+        
+    }
+
+    .search {
+        border-radius: 15px 15px 15px 15px;
+        width:800px ;
+        height:50px;
+        display:block;
+        margin-left:auto;  
+        margin-right:auto;
+    }
     </style>
 
     <head>
@@ -13,12 +48,19 @@
     </head>
 
     <body>
-        <img src = "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" >
+
+    <br>
+    <br>
+    <br> <br> <br> <br>
+        <img src = "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"  class ="center">
 
         <form>
-            <fieldset>
-                <input type ="search">
-            
+            <fieldset class ="fieldframe">
+                <input type  ="search" class = "search">
+                <br>
+                <br>
+                <input type ="button" name = "Google Search" value = "Google Search" class = "button"> 
+                <input type ="button" name = "Im Feeling Lucky" value = "Im Feeling Lucky" class ="button">  
             </fieldset>
             
         </form>
